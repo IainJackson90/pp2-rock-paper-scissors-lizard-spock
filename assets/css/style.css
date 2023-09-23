@@ -1,0 +1,27 @@
+/*------------------------- Body -------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Arial;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 350;
+    /* background-color: rgb(221, 218, 201); */
+}
+
+/*------------------------- Headings -------------------------*/
+
+h1, h2 {
+    font-family: Arial;
+    font-family: 'Shantell Sans', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* color: rgb(90, 11, 11); */
+}
+
