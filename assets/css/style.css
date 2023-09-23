@@ -11,7 +11,7 @@
 body {
     font-family: Arial;
     font-family: 'Shantell Sans', cursive;
-    font-weight: 350;
+    font-weight: 350px;
     /* background-color: rgb(221, 218, 201); */
 }
 
@@ -27,8 +27,8 @@ h1, h2 {
 }
 
 .heading {
-   padding-top: 5px; 
-   border: 30px;
+   padding-top: 30px; 
+   margin : auto;
    text-align: center;
 }
 
@@ -36,8 +36,9 @@ h1, h2 {
 .game-container {
  display: flex;
  flex-direction: row;
- margin: 5px;
+ margin: auto;
  padding-top: 30px;
+ max-width: 1155px;
  }
 
 /*------------------------- User Choice --------------------------------------*/
@@ -55,8 +56,8 @@ h1, h2 {
 }
 
 .button {
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 200px;
     padding: 5px;
     margin: 5px;
     border-radius: 50%;
@@ -88,8 +89,8 @@ flex-direction: column;
 }
 
 .bot-choice-img {
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 200px;
     padding: 5px;
     margin: 5px;
     border-radius: 50%;
@@ -107,5 +108,7 @@ flex-direction: column;
 .score-board {
  display: flex;
  justify-content: space-between;
+ margin: auto;
  margin-top: 30px;
+ max-width: 1155px;
 }
