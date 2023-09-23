@@ -22,15 +22,23 @@ h1, h2 {
     font-family: 'Shantell Sans', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
+    
     /* color: rgb(90, 11, 11); */
+}
+
+.heading {
+   padding-top: 5px; 
+   border: 30px;
+   text-align: center;
 }
 
 /*------------------------- Game Container -----------------------------------*/
 .game-container {
  display: flex;
- justify-content: center;
-}
+ flex-direction: row;
+ margin: 5px;
+ padding-top: 30px;
+ }
 
 /*------------------------- User Choice --------------------------------------*/
 .user-choice {
@@ -66,6 +74,7 @@ h1, h2 {
  height: 400px;
  width: 491px;
  display: flex;
+ margin: auto;
 }
 
 
