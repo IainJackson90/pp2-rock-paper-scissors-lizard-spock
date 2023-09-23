@@ -60,11 +60,13 @@ h1, h2 {
     padding: 5px;
     margin: 5px;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .button > img {
     height: 100%;
     width: 100%;
+    object-fit: contain;
 }
 
 /*------------------------- Playing Board ------------------------------------*/
@@ -75,12 +77,30 @@ h1, h2 {
  width: 491px;
  display: flex;
  margin: auto;
+ background-color: blueviolet;
 }
 
 
 /*------------------------- Bot Choice ---------------------------------------*/
 .bot-choice {
  display: flex;
+flex-direction: column;
+}
+
+.bot-choice-img {
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+     overflow: hidden;
+    background-color: blueviolet;
+}
+
+.bot-choice-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 /*------------------------- Score Board --------------------------------------*/
