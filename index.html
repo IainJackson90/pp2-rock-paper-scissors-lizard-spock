@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <h1>Rock, Papper, scissors, Lirard, Spock</h1>
 
+    <!-------------------------Game Container---------------------------------->
+    <div class="game-container">
+
+      <!-------------------------User------------------------------------------>
+      <div>
+        <h2>User</h2>
+
+        <div class="user-choice">
+          <button>Rock</button>
+          <button>Papper</button>
+          <button>Scissors</button>
+          <button>Lizard</button>
+          <button>Spock</button>
+        </div>
+      </div>
+
+      <!-------------------------Playing Board--------------------------------->
+      <div class="playing-board">
+        <!--Image of Playing board -->
+      </div>
+
+      <!-------------------------Bot------------------------------------------->
+      <div class="bot-choice">
+        <h2>Bot</h2>
+
+        <div>
+          <div><!--Rock--></div>
+          <div><!--Papper--></div>
+          <div><!--Scissors--></div>
+          <div><!--Lizzard--></div>
+          <div><!--Spock--></div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-------------------------Score Board------------------------------------->
+    <div class="score-board">
+      <p class="user-score">
+        User Score :
+        <spann>0</spann>
+      </p>
+
+      <p class="bot-score">
+        Bot Score :
+        <spann>0</spann>
+      </p>
+    </div>
+
+    <!-------------------------JavaScript-------------------------------------->
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
