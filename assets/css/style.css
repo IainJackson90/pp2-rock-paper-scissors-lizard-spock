@@ -51,12 +51,18 @@ h1, h2 {
     width: 300px;
     padding: 5px;
     margin: 5px;
+    border-radius: 50%;
+}
+
+.button > img {
+    height: 100%;
+    width: 100%;
 }
 
 /*------------------------- Playing Board ------------------------------------*/
 .playing-board {
- background: url(../images/playing-board.png) no-repeat;
- object-fit: contain;
+ /* background: url(../images/playing-board.png) center center no-repeat;
+ background-size: cover; */
  height: 400px;
  width: 491px;
  display: flex;
