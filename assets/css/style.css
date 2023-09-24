@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 body {
@@ -103,8 +103,8 @@ flex-direction: column;
     padding: 5px;
     margin: 5px;
     border-radius: 50%;
-     overflow: hidden;
-    /* background-color: blueviolet; */
+    overflow: hidden;
+    background-color: rgb(233, 233, 233);
 }
 
 .bot-choice-img > img {
@@ -125,12 +125,19 @@ flex-direction: column;
 /*------------------------- @media ------------------------------------------*/
 
 @media  screen and (max-width: 950px) { 
+
+    h1, h2 {
+        padding-top: 5px;
+         font-size: unset;
+    }
+
+    .heading {
+        padding-top: 5px;
+    }
     
   .game-container {
     flex-direction: column;
   }
-
-  
 
   .user-choice {
     flex-direction: column;
@@ -139,6 +146,14 @@ flex-direction: column;
   .user-choice > div {
       flex-direction: row;
   }
+
+  .button {
+    height: 80px;
+  } 
+  
+ .playing-board > img {
+    opacity: 40%;
+ }
 
   .bot-choice {
     flex-direction: column;
@@ -149,4 +164,7 @@ flex-direction: column;
     flex-direction: row;
   }
 
+  .bot-choice-img {
+      height: 80px;
+  }
 }
