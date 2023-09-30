@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
             //    return user;
             document.getElementById("outcome").innerText = winningResult;
            
-
+            bestOutOfFive();
         });
     }
 
@@ -33,6 +33,7 @@ function getBotOption() {
 
     let bot = Math.floor(Math.random() * 5) + 1;
     let comittedBotOption;
+    
 
     if (bot === 1) {
         comittedBotOption = "rock";
@@ -169,6 +170,9 @@ function rules(user, bot) {
     }
 }
 
+/**
+ * This function incroments the score of the player
+ */
 function playerScore(){
 
     let oldPlayerScore = parseInt(document.getElementById("player-score-count").innerText);
@@ -178,6 +182,9 @@ function playerScore(){
 
 }
 
+/**
+ * This function incroments the score of the bot
+ */
 function botScore() {
 
     let oldBotScore = parseInt(document.getElementById("bot-score-count").innerText);
@@ -187,6 +194,40 @@ function botScore() {
 
 }
 
+
+/**
+ * this function evaluates who got the best score out of five games
+ * @returns 
+ */
+function bestOutOfFive(){
+
+    let botScoreCount = parseInt(document.getElementById("bot-score-count").innerText);
+    let playerScoreCount = parseInt(document.getElementById("player-score-count").innerText);
+    let bestOutOff = botScoreCount + playerScoreCount;
+    
+    if(bestOutOff === 5){
+        if(botScoreCount > playerScoreCount){
+            alert("Bot won best out of 5 Games")
+            document.getElementById("bot-score-count").innerText = 0;
+            document.getElementById("player-score-count").innerText = 0;
+
+           return console.log("bestOutOfFive function bot won");
+
+        } else if(botScoreCount < playerScoreCount) {
+            alert("Player won best out of 5 Games");
+            document.getElementById("bot-score-count").innerText = 0;
+            document.getElementById("player-score-count").innerText = 0;
+
+           return console.log("bestOutOfFive function player won");
+
+        }else {
+            console.log("Something went wrong with bestOutOfFive() nested if statment ");
+        }
+    } else {
+        
+    }
+
+}
 
 
 
