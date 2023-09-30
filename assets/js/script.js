@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
             console.log(winningResult);
             //    return user;
             document.getElementById("outcome").innerText = winningResult;
+           
 
         });
     }
@@ -70,75 +71,95 @@ function rules(user, bot) {
     } else if (user === "rock") {
 
         if (bot === "paper") {
-         return lose;
+            botScore();
+            return lose;
 
         } else if (bot === "spock") {
+            botScore();
             return lose;
        
         } else if (bot === "scissors"){
+            playerScore();
             return win;
 
         } else if (bot === "lizard"){
+            playerScore();
             return win;
         }
 
     } else if (user === "lizard") {
 
         if (bot === "rock") {
+            botScore();
             return lose;
 
         } else if (bot === "spock") {
+            playerScore();
             return win;
 
         } else if (bot === "scissors") {
+            botScore();
             return lose;
 
         } else if (bot === "paper") {
+            playerScore();
             return win;
         }
 
     } else if (user === "scissors") {
 
         if (bot === "paper") {
+            playerScore();
             return win;
 
         } else if (bot === "spock") {
+            botScore();
             return lose;
 
         } else if (bot === "rock") {
+            botScore();
             return lose;
 
         } else if (bot === "lizard") {
+            playerScore();
             return win;
         }
 
     } else if (user === "spock") {
 
         if (bot === "paper") {
+            botScore();
             return lose;
 
         } else if (bot === "lizard") {
+            botScore();
             return lose;
 
         } else if (bot === "scissors") {
+            playerScore();
             return win;
 
         } else if (bot === "rock") {
+            playerScore();
             return win;
         }
 
     } else if (user === "paper") {
 
         if (bot === "spock") {
+            playerScore();
             return win;
 
         } else if (bot === "lizard") {
+            botScore();
             return lose;
 
         } else if (bot === "scissors") {
+            botScore();
             return lose;
 
         } else if (bot === "rock") {
+            playerScore();
             return win;
         }
 
@@ -146,10 +167,25 @@ function rules(user, bot) {
         alert('Something went wrong');
         console.log("Something went wrong from the rules function");
     }
+}
 
+function playerScore(){
+
+    let oldPlayerScore = parseInt(document.getElementById("player-score-count").innerText);
+    document.getElementById("player-score-count").innerText = ++oldPlayerScore;
+
+    console.log("From player score function");
 
 }
 
+function botScore() {
+
+    let oldBotScore = parseInt(document.getElementById("bot-score-count").innerText);
+    document.getElementById("bot-score-count").innerText = ++oldBotScore;
+
+    console.log("from bot score function");
+
+}
 
 
 
