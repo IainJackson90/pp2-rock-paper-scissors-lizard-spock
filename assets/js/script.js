@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
             console.log(botOption);
             console.log(winningResult);
             //    return user;
-            
+            document.getElementById("outcome").innerText = winningResult;
 
         });
     }
