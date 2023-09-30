@@ -11,9 +11,12 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
             let user = this.getAttribute("data-type");
            const botOption =  getBotOption(); /* stores the value now*/
            /*let  reulst = rules(user, botOption) */
+           let winningResult = rules(user, botOption);
             console.log(user);
             console.log(botOption);
+            console.log(winningResult);
             //    return user;
+            
 
         });
     }
@@ -37,12 +40,13 @@ function getBotOption() {
     } else if (bot === 3) {
         comittedBotOption = "scissors";
     } else if (bot === 4) {
-        comittedBotOption = "lizzard";
+        comittedBotOption = "lizard";
     } else if (bot === 5) {
         comittedBotOption = "spock";
     }
     else {
         alert("Something went wrong");
+        console.log("Something went wrong in the getBotOption function");
     }
 
     return comittedBotOption;
@@ -78,10 +82,10 @@ function rules(user, bot) {
             return win;
         }
 
-    } else if (user === "paper") {
+    } else if (user === "lizard") {
 
         if (bot === "rock") {
-            return win;
+            return lose;
 
         } else if (bot === "spock") {
             return win;
@@ -89,14 +93,14 @@ function rules(user, bot) {
         } else if (bot === "scissors") {
             return lose;
 
-        } else if (bot === "lizard") {
-            return lose;
+        } else if (bot === "paper") {
+            return win;
         }
 
     } else if (user === "scissors") {
 
         if (bot === "paper") {
-            return lwin;
+            return win;
 
         } else if (bot === "spock") {
             return lose;
@@ -123,7 +127,25 @@ function rules(user, bot) {
             return win;
         }
 
-    } 
+    } else if (user === "paper") {
+
+        if (bot === "spock") {
+            return win;
+
+        } else if (bot === "lizard") {
+            return lose;
+
+        } else if (bot === "scissors") {
+            return lose;
+
+        } else if (bot === "rock") {
+            return win;
+        }
+
+    } else {
+        alert('Something went wrong');
+        console.log("Something went wrong from the rules function");
+    }
 
 
 }
