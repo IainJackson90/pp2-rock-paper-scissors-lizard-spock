@@ -9,9 +9,10 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
         button.addEventListener("click", function commitedUserOption() {
 
             let user = this.getAttribute("data-type");
-            getBotOption();
+           const botOption =  getBotOption(); /* stores the value now*/
+           /*let  reulst = rules(user, botOption) */
             console.log(user);
-            console.log(getBotOption(commitedUserOption));
+            console.log(botOption);
             //    return user;
 
         });
@@ -21,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
 
 /**
  * This is the bot player it gets a random number and asings it a value of 
- * rock, paper, scissors, lizard, spock.  
+ * rock, paper, scissors, lizard, spock. 
+ * @returns the value of the comittedBotOption 
  */
 function getBotOption() {
 
@@ -46,6 +48,12 @@ function getBotOption() {
     return comittedBotOption;
 }
 
+/**
+ * This function evaluates who won 
+ * @param {this is the user value chosen} user 
+ * @param {*this is the bots value chosen} bot 
+ * @returns a string that states who won and the the options that was chosen
+ */
 
 function rules(user, bot) {
 
@@ -70,7 +78,52 @@ function rules(user, bot) {
             return win;
         }
 
-    }
+    } else if (user === "paper") {
+
+        if (bot === "rock") {
+            return win;
+
+        } else if (bot === "spock") {
+            return win;
+
+        } else if (bot === "scissors") {
+            return lose;
+
+        } else if (bot === "lizard") {
+            return lose;
+        }
+
+    } else if (user === "scissors") {
+
+        if (bot === "paper") {
+            return lwin;
+
+        } else if (bot === "spock") {
+            return lose;
+
+        } else if (bot === "rock") {
+            return lose;
+
+        } else if (bot === "lizard") {
+            return win;
+        }
+
+    } else if (user === "spock") {
+
+        if (bot === "paper") {
+            return lose;
+
+        } else if (bot === "lizard") {
+            return lose;
+
+        } else if (bot === "scissors") {
+            return win;
+
+        } else if (bot === "rock") {
+            return win;
+        }
+
+    } 
 
 
 }
