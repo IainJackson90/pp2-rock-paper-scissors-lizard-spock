@@ -82,6 +82,7 @@ h1, h2 {
  max-height: 400px;
  max-width: 491px;
  display: flex;
+ flex-direction: column;
  margin: auto;
  /* background-color: blueviolet; */
 }
@@ -89,6 +90,12 @@ h1, h2 {
 .playing-board > img {
    height: 100%;
    width: 100%;
+}
+
+#outcome {
+   text-align: center;
+   font-size: larger;
+   font-weight: 600;
 }
 
 /*------------------------- Bot Choice ---------------------------------------*/
