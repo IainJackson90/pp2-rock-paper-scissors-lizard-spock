@@ -96,6 +96,7 @@ h1, h2 {
    text-align: center;
    font-size: larger;
    font-weight: 600;
+   
 }
 
 #winner {
@@ -132,9 +133,10 @@ flex-direction: column;
  display: flex;
  justify-content: space-between;
  margin: auto;
- margin-top: 30px;
+ margin-top: 10px;
  max-width: 1155px;
 }
+
 
 /*------------------------- @media ------------------------------------------*/
 
@@ -142,6 +144,7 @@ flex-direction: column;
 
     h1, h2 {
         padding-top: 5px;
+        padding-bottom: 5px;
          font-size: unset;
     }
 
@@ -150,6 +153,7 @@ flex-direction: column;
     }
     
   .game-container {
+    padding-top: 5px;
     flex-direction: column;
   }
 
@@ -166,7 +170,24 @@ flex-direction: column;
   } 
   
  .playing-board > img {
+    /* max-height: 209px; */
     opacity: 40%;
+    position: relative;
+ }
+
+ #outcome{
+    position: absolute;
+    top: 240px;
+    transform: translate(0%, -10%);
+ }
+
+ #winner{
+    width: 95%;
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+
+    transform: translate(-50%, 45%);
  }
 
   .bot-choice {

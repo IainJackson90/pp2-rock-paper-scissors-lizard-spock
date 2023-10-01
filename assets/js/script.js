@@ -289,7 +289,6 @@ function botStyling(botStyle) {
         console.log("botStyling() something went wrong");
     }
 
-
     console.log("botStyling() Function");
 }
 
