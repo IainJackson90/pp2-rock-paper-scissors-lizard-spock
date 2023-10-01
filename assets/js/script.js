@@ -209,16 +209,20 @@ function bestOutOfFive() {
     let playerScoreCount = parseInt(document.getElementById("player-score-count").innerText);
     let bestOutOff = botScoreCount + playerScoreCount;
 
+    
     if (bestOutOff === 5) {
         if (botScoreCount > playerScoreCount) {
-            alert("Bot won best out of 5 Games");
+            document.getElementById("winner").innerText = "Player won the best out of 5 games";
+            
             document.getElementById("bot-score-count").innerText = 0;
             document.getElementById("player-score-count").innerText = 0;
 
             return console.log("bestOutOfFive function bot won");
 
         } else if (botScoreCount < playerScoreCount) {
-            alert("Player won best out of 5 Games");
+            document.getElementById("winner").innerText = "Bot won the best out of 5 games";
+
+            // alert("Player won best out of 5 Games");
             document.getElementById("bot-score-count").innerText = 0;
             document.getElementById("player-score-count").innerText = 0;
 
@@ -228,7 +232,7 @@ function bestOutOfFive() {
             console.log("Something went wrong with bestOutOfFive() nested if statment ");
         }
     } else {
-        /* do nothing  check if a case statment would work better*/
+        document.getElementById("winner").innerText = "";
     }
 
 }
