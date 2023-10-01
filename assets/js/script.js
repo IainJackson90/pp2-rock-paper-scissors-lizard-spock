@@ -292,6 +292,10 @@ function botStyling(botStyle) {
     console.log("botStyling() Function");
 }
 
+function popUpFunction(){
+    let popup = document.getElementById("pop-up-rules");
+    popup.classList.toggle("show");
+}
 
 
 
