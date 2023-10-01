@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    /* border: red solid 1px; */
+    border: red solid 1px;
 }
 
 body {
@@ -25,6 +25,17 @@ h1, h2 {
     letter-spacing: 2px;
     
     /* color: rgb(90, 11, 11); */
+}
+
+#rules{
+    font-size: large;
+    color: red;
+    text-align: center;
+    /* width: 30px; */
+}
+
+#rules:hover{
+    text-shadow: 4px 4px 8px rgb(139, 49, 49);
 }
 
 .heading {
@@ -96,6 +107,7 @@ h1, h2 {
    text-align: center;
    font-size: larger;
    font-weight: 600;
+   color: green;
    
 }
 
@@ -103,6 +115,7 @@ h1, h2 {
     text-align: center;
     font-size: larger;
     font-weight: 600;
+    color: red;
  }
 
 
@@ -144,7 +157,7 @@ flex-direction: column;
 
     h1, h2 {
         padding-top: 5px;
-        padding-bottom: 5px;
+        /* padding-bottom: 5px; */
          font-size: unset;
     }
 
@@ -171,14 +184,15 @@ flex-direction: column;
   
  .playing-board > img {
     /* max-height: 209px; */
-    opacity: 40%;
+    opacity: 35%;
     position: relative;
  }
 
  #outcome{
+    width: 99%;
     position: absolute;
-    top: 240px;
-    transform: translate(0%, -10%);
+    top: 245px;
+    transform: translate(-1%, -10%);
  }
 
  #winner{
@@ -202,4 +216,9 @@ flex-direction: column;
   .bot-choice-img {
       height: 80px;
   }
+}
+
+.score-board{
+    margin-top: 5px;
+    padding-right: 5px;
 }
