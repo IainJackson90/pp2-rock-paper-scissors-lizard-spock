@@ -48,7 +48,7 @@ h1, h2 {
 .pop-up{
     position: relative;
     /* display: inline-block; */
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .pop-up .pop-up-text{
@@ -56,18 +56,23 @@ h1, h2 {
     width: 300px;
     /* width: 50%; */
     background-color: lightgreen;
+    /* opacity: 100%; */
     text-align: center;
     border-radius: 4px;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 25%);
+    transform: translate(-50%, 0%);
+    z-index: 1;   /* this will place the popup ontop of evrything */
+    font-size: large;
+    font-weight: 600;
+    list-style-type: none;
  }
 
 
 .pop-up .pop-up-text::after{
     position: absolute;
     content: "";
-    border-style: solid 5px 5px;
+    /* border-style: solid 5px 5px; */
 }
 
 .pop-up .show {
