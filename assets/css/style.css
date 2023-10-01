@@ -98,6 +98,13 @@ h1, h2 {
    font-weight: 600;
 }
 
+#winner {
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+ }
+
+
 /*------------------------- Bot Choice ---------------------------------------*/
 .bot-choice {
  display: flex;
