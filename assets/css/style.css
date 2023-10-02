@@ -252,7 +252,7 @@ h2 {
     #winner {
         width: 95%;
         position: absolute;
-        bottom: 75%;
+        bottom: 55%;
         left: 50%;
         transform: translate(-50%, 45%);
     }
@@ -334,7 +334,7 @@ h2 {
     }
 
     #outcome {
-        top: 175px;
+        top: 185px;
         transform: translate(-11%, -15%);
     }
 }
