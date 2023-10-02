@@ -1,101 +1,111 @@
 /*------------------------- Body -------------------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
-    /* border: red solid 1px; */
+    /* border: red solid 1px;
+     */
 }
 
 body {
     font-family: Arial;
     font-family: 'Shantell Sans', cursive;
     font-weight: 350px;
-    /* background-color: rgb(221, 218, 201); */
+    /* background-color: rgb(221, 218, 201);
+     */
 }
 
 /*------------------------- Headings -----------------------------------------*/
-
-h1, h2 {
+h1,
+h2 {
     font-family: Arial;
     font-family: 'Shantell Sans', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
-    
-    /* color: rgb(90, 11, 11); */
+    /* color: rgb(90, 11, 11);
+     */
 }
 
-#rules{
+#rules {
     font-size: large;
     color: red;
     text-align: center;
-    /* width: 30px; */
+    /* width: 30px;
+     */
 }
 
-#rules:hover{
+#rules:hover {
     text-shadow: 4px 4px 8px rgb(139, 49, 49);
 }
 
 .heading {
-   padding-top: 30px; 
-   margin : auto;
-   text-align: center;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
 }
 
-/*------------------------- Pop Up         -----------------------------------*/
-.pop-up{
+/*------------------------- Pop Up -----------------------------------*/
+.pop-up {
     position: relative;
-    /* display: inline-block; */
-    /* cursor: pointer; */
+    /* display: inline-block;
+     */
+    /* cursor: pointer;
+     */
 }
 
-.pop-up .pop-up-text{
+.pop-up .pop-up-text {
     visibility: hidden;
     width: 300px;
-    /* width: 50%; */
+    /* width: 50%;
+     */
     background-color: lightgreen;
-    /* opacity: 100%; */
+    /* opacity: 100%;
+     */
     text-align: center;
     border-radius: 4px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
-    z-index: 1;   /* this will place the popup ontop of evrything */
+    z-index: 1;
+    /* this will place the popup ontop of evrything */
     font-size: large;
     font-weight: 600;
     list-style-type: none;
- }
+}
 
-
-.pop-up .pop-up-text::after{
+.pop-up .pop-up-text::after {
     position: absolute;
     content: "";
-    /* border-style: solid 5px 5px; */
+    /* border-style: solid 5px 5px;
+     */
 }
 
 .pop-up .show {
     visibility: visible;
 }
+
 /*------------------------- Game Container -----------------------------------*/
 .game-container {
- display: flex;
- flex-direction: row;
- margin: auto;
- padding-top: 30px;
- max-width: 1155px;
- }
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 30px;
+    max-width: 1155px;
+}
 
 /*------------------------- User Choice --------------------------------------*/
 .user-choice {
- display: flex;
- flex-direction: column;
- /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine;
+     */
 }
 
-.user-choice > div {
-    /* background-color: grey; */
+.user-choice>div {
+    /* background-color: grey;
+     */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -110,7 +120,7 @@ h1, h2 {
     overflow: hidden;
 }
 
-.button > img {
+.button>img {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -122,27 +132,28 @@ h1, h2 {
 
 /*------------------------- Playing Board ------------------------------------*/
 .playing-board {
- /* background: url(../images/playing-board.png) center center no-repeat;
- background-size: cover; */
- max-height: 400px;
- max-width: 491px;
- display: flex;
- flex-direction: column;
- margin: auto;
- /* background-color: blueviolet; */
+    /* background: url(../images/playing-board.png) center center no-repeat;
+     background-size: cover;
+     */
+    max-height: 400px;
+    max-width: 491px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: blueviolet;
+     */
 }
 
-.playing-board > img {
-   height: 100%;
-   width: 100%;
+.playing-board>img {
+    height: 100%;
+    width: 100%;
 }
 
 #outcome {
-   text-align: center;
-   font-size: larger;
-   font-weight: 600;
-   color: green;
-   
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    color: green;
 }
 
 #winner {
@@ -150,13 +161,12 @@ h1, h2 {
     font-size: larger;
     font-weight: 600;
     color: red;
- }
-
+}
 
 /*------------------------- Bot Choice ---------------------------------------*/
 .bot-choice {
- display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .bot-choice-img {
@@ -169,7 +179,7 @@ flex-direction: column;
     background-color: rgb(233, 233, 233);
 }
 
-.bot-choice-img > img {
+.bot-choice-img>img {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -177,103 +187,100 @@ flex-direction: column;
 
 /*------------------------- Score Board --------------------------------------*/
 .score-board {
- display: flex;
- justify-content: space-between;
- margin: auto;
- margin-top: 10px;
- max-width: 1155px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1155px;
 }
 
-
 /*------------------------- @media ------------------------------------------*/
+@media screen and (max-width: 950px) {
 
-@media  screen and (max-width: 950px) { 
-
-    h1, h2 {
+    h1,
+    h2 {
         padding-top: 5px;
-        /* padding-bottom: 5px; */
-         font-size: unset;
+        /* padding-bottom: 5px;
+         */
+        font-size: unset;
     }
 
     .heading {
         padding-top: 5px;
     }
-    
-  .game-container {
-    padding-top: 5px;
-    flex-direction: column;
-  }
 
-  .user-choice {
-    flex-direction: column;
-  }
+    .game-container {
+        padding-top: 5px;
+        flex-direction: column;
+    }
 
-  .user-choice > div {
-      flex-direction: row;
-  }
+    .user-choice {
+        flex-direction: column;
+    }
 
-  .button {
-    height: 80px;
-  } 
-  
- .playing-board > img {
-    /* max-height: 209px; */
-    opacity: 35%;
-    position: relative;
- }
+    .user-choice>div {
+        flex-direction: row;
+    }
 
- #outcome{
-    width: 99%;
-    position: absolute;
-    top: 245px;
-    transform: translate(-1%, -10%);
- }
+    .button {
+        height: 80px;
+    }
 
- #winner{
-    width: 95%;
-    position: absolute;
-    bottom: 45%;
-    left: 50%;
+    .playing-board>img {
+        /* max-height: 209px;
+         */
+        opacity: 35%;
+        position: relative;
+    }
 
-    transform: translate(-50%, 45%);
- }
+    #outcome {
+        width: 99%;
+        position: absolute;
+        top: 245px;
+        transform: translate(-1%, -10%);
+    }
 
-  .bot-choice {
-    flex-direction: column;
-  }
+    #winner {
+        width: 95%;
+        position: absolute;
+        bottom: 45%;
+        left: 50%;
+        transform: translate(-50%, 45%);
+    }
 
-  .bot-choice > div {
-    display: flex;
-    flex-direction: row;
-  }
+    .bot-choice {
+        flex-direction: column;
+    }
 
-  .bot-choice-img {
-      height: 80px;
-  }
+    .bot-choice>div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bot-choice-img {
+        height: 80px;
+    }
 }
 
-.score-board{
+.score-board {
     margin-top: 5px;
     padding-right: 5px;
 }
 
-@media screen and (max-width: 1600px){
-
-  .button {
+@media screen and (max-width: 1600px) {
+    .button {
         height: 140px;
         width: 170px;
-  }
+    }
 
-  .bot-choice-img{
-    height: 140px;
-     width: 170px;
-  }
-
+    .bot-choice-img {
+        height: 140px;
+        width: 170px;
+    }
 }
 
-@media screen and (max-width: 1280px){
-
-.button {
+@media screen and (max-width: 1280px) {
+    .button {
         height: 100px;
         width: 150px;
     }
@@ -282,12 +289,10 @@ flex-direction: column;
         height: 100px;
         width: 150px;
     }
-
 }
 
-@media screen and (max-width: 320px){
-
-.button {
+@media screen and (max-width: 320px) {
+    .button {
         height: 60px;
         width: 150px;
     }
@@ -297,30 +302,30 @@ flex-direction: column;
         width: 150px;
     }
 
-.heading{
-    padding-top: 5px;
-    font-size: 11px;
-}
+    .heading {
+        padding-top: 5px;
+        font-size: 11px;
+    }
 
-#rules{
-    font-size: 11px;
-}
+    #rules {
+        font-size: 11px;
+    }
 
-h2 {
-    font-size: 11px;;
-}
+    h2 {
+        font-size: 11px;
+        
+    }
 
-#score-board{
-    font-size: 11px;
-}
+    #score-board {
+        font-size: 11px;
+    }
 
-.playing-board>img {
-    max-height: 200px;
-}
+    .playing-board>img {
+        max-height: 200px;
+    }
 
-#outcome{
-    top: 163px;
-    transform: translate(-11%, -15%);
-}
-
+    #outcome {
+        top: 163px;
+        transform: translate(-11%, -15%);
+    }
 }
