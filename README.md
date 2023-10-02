@@ -6,7 +6,7 @@ Rock Paper Scissors Lizard Spock is a game created that is simple to play.
 It is desingend for people that hass a few moments to spare while on a break, or 
 in general just want to pass time for a bit.
 
-
+![Am I Responsive](./assets/docs/responsivePP2.PNG)
 
 # UX
 
