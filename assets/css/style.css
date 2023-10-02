@@ -246,7 +246,7 @@ h2 {
         width: 99%;
         position: absolute;
         top: 280px;
-        transform: translate(-1%, -10%);
+        transform: translate(-20%, -10%);
     }
 
     #winner {
@@ -305,10 +305,10 @@ h2 {
         transform: translate(-18%, -10%); 
    } 
 
-   #winner {
+   /* #winner {
     bottom: 55%;
    }
-}
+} */
 
 @media screen and (max-width: 320px) {
     .button {
