@@ -194,6 +194,15 @@ h2 {
     max-width: 1155px;
 }
 
+.user-score {
+    display: flex;
+    align-items: baseline;
+}
+
+.bot-score {
+    display: flex;
+    align-items: baseline;
+}
 /*------------------------- @media ------------------------------------------*/
 @media screen and (max-width: 950px) {
 
@@ -243,7 +252,7 @@ h2 {
     #winner {
         width: 95%;
         position: absolute;
-        bottom: 45%;
+        bottom: 55%;
         left: 50%;
         transform: translate(-50%, 45%);
     }
@@ -325,7 +334,7 @@ h2 {
     }
 
     #outcome {
-        top: 163px;
+        top: 175px;
         transform: translate(-11%, -15%);
     }
 }

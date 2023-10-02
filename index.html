@@ -1,107 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta name="description" content="Rock paper scissor lizard and spock, uk, united kingdom">
     <meta name="keywords" content="strategy, game, relaxing ">
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" >
     <title> Rock, Paper, scissors, Lizard, Spock </title>
-</head>
-
-<body>
+  </head>
+  <body>
     <h1 class="heading">Rock, Paper, scissors, Lizard, Spock</h1>
     <div class="pop-up">
-        <h3 id="rules" onclick="popUpFunction()">Rules!</h3>
-        <ul id="pop-up-rules" class="pop-up-text">
-            <li>Best out of 5 games</li>
-            <li>Scissors cuts Paper</li>
-            <li>Paper covers Rock</li>
-            <li>Rock crushes Lizard</li>
-            <li>Lizard poisons Spock</li>
-            <li>Spock smashes Scissors</li>
-            <li>Scissors decapitates Lizard</li>
-            <li>Lizard eats Paper</li>
-            <li>Paper disproves Spock</li>
-            <li>Spock vaporizes Rock</li>
-            <li>(and as it always has) Rock crushes Scissors</li>
-        </ul>
-</body>
-<!-------------------------Game Container---------------------------------->
-<div class="game-container">
-    <!-------------------------User------------------------------------------>
-    <div class="user-choice">
+      <h3 id="rules" onclick="popUpFunction()">Rules!</h3>
+      <ul id="pop-up-rules" class="pop-up-text">
+        <li>Best out of 5 games</li>
+        <li>Scissors cuts Paper</li>
+        <li>Paper covers Rock</li>
+        <li>Rock crushes Lizard</li>
+        <li>Lizard poisons Spock</li>
+        <li>Spock smashes Scissors</li>
+        <li>Scissors decapitates Lizard</li>
+        <li>Lizard eats Paper</li>
+        <li>Paper disproves Spock</li>
+        <li>Spock vaporizes Rock</li>
+        <li>(and as it always has) Rock crushes Scissors</li>
+      </ul>
+    </div>
+    <!-------------------------Game Container---------------------------------->
+    <div class="game-container">
+      <!-------------------------User------------------------------------------>
+      <div class="user-choice">
         <h2>User :</h2>
         <div class="button-container">
-            <button data-type="rock" id="rock" class="button">
-                <img src="assets/images/rock.png" alt="Image of a rock">
-            </button>
-            <button data-type="paper" id="paper" class="button">
-                <img src="assets/images/paper.png" alt="Image of Paper">
-            </button>
-            <button data-type="scissors" id="scissors" class="button">
-                <img src="assets/images/scissors.png" alt="Image of  Scissors">
-            </button>
-            <button data-type="lizard" id="lizard" class="button">
-                <img src="assets/images/lizard.png" alt="Image of a Lizard">
-            </button>
-            <button data-type="spock" id="spock" class="button">
-                <img src="assets/images/spock.png" alt="Image of Spock">
-            </button>
+          <button data-type="rock" id="rock" class="button">
+          <img src="assets/images/rock.png" alt="Image of a rock">
+          </button>
+          <button data-type="paper" id="paper" class="button">
+          <img src="assets/images/paper.png" alt="Image of Paper">
+          </button>
+          <button data-type="scissors" id="scissors" class="button">
+          <img src="assets/images/scissors.png" alt="Image of  Scissors">
+          </button>
+          <button data-type="lizard" id="lizard" class="button">
+          <img src="assets/images/lizard.png" alt="Image of a Lizard">
+          </button>
+          <button data-type="spock" id="spock" class="button">
+          <img src="assets/images/spock.png" alt="Image of Spock">
+          </button>
         </div>
-    </div>
-    <!-------------------------Playing Board--------------------------------->
-    <div class="playing-board">
+      </div>
+      <!-------------------------Playing Board--------------------------------->
+      <div class="playing-board">
         <img src="assets/images/playing-board.png" alt="Image of Rock, Paper, Scissors">
         <br>
         <p id="outcome">
-            <!--Empty String-->
+          <!--Empty String-->
         </p>
         <p id="winner">
-            <!--EmptyString-->
+          <!--EmptyString-->
         </p>
-    </div>
-    <!-------------------------Bot------------------------------------------->
-    <div class="bot-choice">
+      </div>
+      <!-------------------------Bot------------------------------------------->
+      <div class="bot-choice">
         <h2>Bot :</h2>
         <div>
-            <div id="bot-js-rock" data-type="bot-rock" class="bot-choice-img">
-                <img src="assets/images/rock.png" alt="Iamge of a rock">
-            </div>
-            <div id="bot-js-paper" data-type="bot-paper" class="bot-choice-img">
-                <img src="assets/images/paper.png" alt="Iamage of Paper">
-            </div>
-            <div id="bot-js-scissors" data-type="bot-scissors" class="bot-choice-img">
-                <img src="assets/images/scissors.png" alt="Iamage of  Scissors">
-            </div>
-            <div id="bot-js-lizard" data-type="bot-lizard" class="bot-choice-img">
-                <img src="assets/images/lizard.png" alt="Iamage of a Lizard">
-            </div>
-            <div id="bot-js-spock" data-type="bot-spock" class="bot-choice-img">
-                <img src="assets/images/spock.png" alt="Iamage of Spock">
-            </div>
+          <div id="bot-js-rock" data-type="bot-rock" class="bot-choice-img">
+            <img src="assets/images/rock.png" alt="Iamge of a rock">
+          </div>
+          <div id="bot-js-paper" data-type="bot-paper" class="bot-choice-img">
+            <img src="assets/images/paper.png" alt="Iamage of Paper">
+          </div>
+          <div id="bot-js-scissors" data-type="bot-scissors" class="bot-choice-img">
+            <img src="assets/images/scissors.png" alt="Iamage of  Scissors">
+          </div>
+          <div id="bot-js-lizard" data-type="bot-lizard" class="bot-choice-img">
+            <img src="assets/images/lizard.png" alt="Iamage of a Lizard">
+          </div>
+          <div id="bot-js-spock" data-type="bot-spock" class="bot-choice-img">
+            <img src="assets/images/spock.png" alt="Iamage of Spock">
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-------------------------Score Board------------------------------------->
-<div class="score-board">
-    <p class="user-score">
-    <h2>User Score :</h2>
-    <span>
-        <h3 id="player-score-count">0</h3>
-    </span>
-    </p>
-    <p class="bot-score">
-    <h2>Bot Score :</h2>
-    <span>
-        <h3 id="bot-score-count">0</h3>
-    </span>
-    </p>
-</div>
-<!-------------------------JavaScript-------------------------------------->
-<script src="assets/js/script.js"></script>
-</body>
-
+    <!-------------------------Score Board------------------------------------->
+    <div class="score-board">
+      <div class="user-score">
+        <h2>User Score :</h2>
+        <h2 id="player-score-count">0</h2>
+      </div>
+      <div class="bot-score">
+        <h2>Bot Score :</h2>
+        <h2 id="bot-score-count">0</h2>
+      </div>
+    </div>
+    <!-------------------------JavaScript-------------------------------------->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
