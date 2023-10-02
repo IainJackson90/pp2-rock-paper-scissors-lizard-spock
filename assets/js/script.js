@@ -34,7 +34,7 @@ function getBotOption() {
 
     let bot = Math.floor(Math.random() * 5) + 1;
     let comittedBotOption;
-    
+
     if (bot === 1) {
         comittedBotOption = "rock";
 
@@ -49,8 +49,7 @@ function getBotOption() {
 
     } else if (bot === 5) {
         comittedBotOption = "spock";
-    }
-    else {
+    } else {
         alert("Something went wrong");
         console.log("Something went wrong in the getBotOption function");
     }
@@ -209,11 +208,11 @@ function bestOutOfFive() {
     let playerScoreCount = parseInt(document.getElementById("player-score-count").innerText);
     let bestOutOff = botScoreCount + playerScoreCount;
 
-    
+
     if (bestOutOff === 5) {
         if (botScoreCount > playerScoreCount) {
             document.getElementById("winner").innerText = "Player won the best out of 5 games";
-            
+
             document.getElementById("bot-score-count").innerText = 0;
             document.getElementById("player-score-count").innerText = 0;
 
@@ -244,7 +243,7 @@ function bestOutOfFive() {
  */
 function botStyling(botStyle) {
 
-   
+
     if (botStyle === "rock") {
         document.getElementById("bot-js-rock").style.boxShadow = "4px 4px 8px red";
 
@@ -292,10 +291,7 @@ function botStyling(botStyle) {
     console.log("botStyling() Function");
 }
 
-function popUpFunction(){
+function popUpFunction() {
     let popup = document.getElementById("pop-up-rules");
     popup.classList.toggle("show");
 }
-
-
-
