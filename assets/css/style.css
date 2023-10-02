@@ -300,6 +300,16 @@ h2 {
     }
 }
 
+@media screen and (max-width: 768px) {
+   #outcome {
+        transform: translate(-18%, -10%); 
+   } 
+
+   #winner {
+    bottom: 55%;
+   }
+}
+
 @media screen and (max-width: 320px) {
     .button {
         height: 60px;
