@@ -256,3 +256,71 @@ flex-direction: column;
     margin-top: 5px;
     padding-right: 5px;
 }
+
+@media screen and (max-width: 1600px){
+
+  .button {
+        height: 140px;
+        width: 170px;
+  }
+
+  .bot-choice-img{
+    height: 140px;
+     width: 170px;
+  }
+
+}
+
+@media screen and (max-width: 1280px){
+
+.button {
+        height: 100px;
+        width: 150px;
+    }
+
+    .bot-choice-img {
+        height: 100px;
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+.button {
+        height: 60px;
+        width: 150px;
+    }
+
+    .bot-choice-img {
+        height: 55px;
+        width: 150px;
+    }
+
+.heading{
+    padding-top: 5px;
+    font-size: 11px;
+}
+
+#rules{
+    font-size: 11px;
+}
+
+h2 {
+    font-size: 11px;;
+}
+
+#score-board{
+    font-size: 11px;
+}
+
+.playing-board>img {
+    max-height: 200px;
+}
+
+#outcome{
+    top: 163px;
+    transform: translate(-11%, -15%);
+}
+
+}

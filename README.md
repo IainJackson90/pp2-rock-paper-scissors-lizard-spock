@@ -2,6 +2,10 @@
 
 ## [Click here to view website](https://iainjackson90.github.io/pp2-rock-paper-scissors-lizard-spock/)
 
+Rock Paper Scissors Lizard Spock is a game created that is simple to play.
+It is desingend for people that hass a few moments to spare while on a break, or 
+in general just want to pass time for a bit.
+
 
 
 # UX
