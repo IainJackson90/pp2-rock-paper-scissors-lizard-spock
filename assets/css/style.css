@@ -346,6 +346,7 @@ h2 {
 
     #outcome {
         top: 185px;
+        max-width: 95%;
         left: 12%;
         transform: translate(-11%, -15%);
     }
