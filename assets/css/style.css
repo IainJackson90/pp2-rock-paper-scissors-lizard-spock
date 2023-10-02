@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     border: none;
-    /* border: red solid 1px;
-     */
+    /* border: red solid 1px; */
+    
 }
 
 body {
@@ -302,7 +302,8 @@ h2 {
 
 @media screen and (max-width: 768px) {
    #outcome {
-        left: 20%;
+        left: 19%;
+        max-width: 95%;
         transform: translate(-18%, -10%); 
    } 
 
@@ -346,8 +347,8 @@ h2 {
 
     #outcome {
         top: 185px;
-        max-width: 93%;
-        left: 12%;
+        max-width: 90%;
+        left: 15%;
         transform: translate(-11%, -15%);
     }
 }
