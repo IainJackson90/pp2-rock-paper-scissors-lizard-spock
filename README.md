@@ -3,8 +3,8 @@
 ## [Click here to view website](https://iainjackson90.github.io/pp2-rock-paper-scissors-lizard-spock/)
 
 Rock Paper Scissors Lizard Spock is a game created that is simple to play.
-It is desingend for people that hass a few moments to spare while on a break, or 
-in general just want to pass time for a bit.
+It is designed for people that has a few moments to spare while on a break, or
+In general just want to pass time for a bit.
 
 ![Am I Responsive](./assets/docs/responsive.png)
 
@@ -12,33 +12,33 @@ in general just want to pass time for a bit.
 
 ## Strategy
 
-This game was created with the intent to catch the atention of anyone who comes across this game.
-The targeted audiance of this game is to evryone and all ages looking for a fun strategy game that has some time to pass weather it is a quick lunch break or a brather just wanting to rellax.
-It is a simple game and esaly understandible 
+This game was created with the intent to catch the attention of anyone who comes across this game.
+The targeted audience of this game is to everyone and all ages looking for a fun strategy game that has some time to pass whether it is a quick lunch break or a breather just wanting to relax.
+It is a simple game and easily understandable
 
-## Scope 
+## Scope
 
 The Game will:
 
--  Acept a user input
--  Create a random choise from the bot
--  Compare the values
--  Evaluate who won the round
--  Incroment the score of the winner of the round
--  Evaluate who won the best of five games
--  Reset the score after five games 
-  
+- Accept a user input
+- Create a random choice from the bot
+- Compare the values
+- Evaluate who won the round
+- Increment the score of the winner of the round
+- Evaluate who won the best of five games
+- Reset the score after five games
+
 ## Structure
 
-The game will be structuerd with user expeariance in mind, it will be displayed 
+The game will be structured with user experience in mind, it will be displayed
 on a single page with no overflow.
-Whether it is a large screen or mobile divce it should fit all on the screen not destarcting the user with any scroling effects, not breaking the users atention of the game. 
+Whether it is a large screen or mobile device it should fit all on the screen not detecting the user with any scrolling effects, not breaking the users attention of the game.
 
 ## Skeleton
 
-Some feuters of the wireframe has change as the development of the game went on, as I felt some features would be better incorperated innto the disng than others
+Some features of the wireframe has change as the development of the game went on, as I felt some features would be better incorporated into the design than others
 
-This is the original wireframe desing
+This is the original wireframe design
 
 ### Wireframe
 
@@ -46,7 +46,7 @@ This is the original wireframe desing
 
 ## Surface
 
-When desinging the serface I went for a cartoon look and coulerfull with a fun text font to match the the game 
+When designing the surface I went for a cartoon look and colorful with a fun text font to match the the game
 
 ### Font
 
@@ -60,88 +60,87 @@ the font I used was Shantell Sans
 
 # Features
 
-The features was created with the mindset of diplsaying clearly what option was selected and have a clean layout for easy user experiance with ey capturing pictures and colors to grab the user atention.
+The features were created with the mindset of displaying clearly what option was selected and have a clean layout for easy user experience with ey capturing pictures and colors to grab the user attention.
 
 ## Existing Features
 
 ![Main Page ](./assets/docs/entir-game.png)
 
-The rules PupUp will display all the rules when it is clicked on displayed on a limegreen background. When you hover over the rules on desktop it will have a shadow of red and on mobile it will have a shadow after clicking on it.
+The rules PupUp will display all the rules when it is clicked on and displayed on a lime green background. When you hover over the rules on desktop it will have a shadow of red and on mobile it will have a shadow after clicking on it.
 
 ![Rules PopUp](./assets/docs/rules-popup.png)
 
-The user choice will have a green shadow when you hover over the image on desctop and on mobile it will have a green background if you selected a option.
+The user choice will have a green shadow when you hover over the image on desktop and on mobile it will have a green background if you select an option.
 
-![User Choise](./assets/docs/user-choise.png)
+![User Choice](./assets/docs/user-choise.png)
 
-The Bot will have a rando choise and it will besplayed with a red shadow 
+The Bot will have a random choice and it will be displayed with a red shadow
 
-![Bot Choise](./assets/docs/bot-choise.png)
+![Bot Choice](./assets/docs/bot-choise.png)
 
-The green text displayes the uoutcome of who won the round
+The green text displays the outcome of who won the round
 
 ![Result of the round](./assets/docs/result-of-round.png)
 
-The red text will only apear at the end of the fith round displaying who won the best of the five games 
+The red text will only appear at the end of the fifth round displaying who won the best of the five games
 
 ![Result of the game](./assets/docs/result-of-game.png)
 
-the score will incroment dependant on who won and reset after five rounds 
+the score will increment depending on who won and reset after five rounds
 
 ![Score](./assets/docs/score.png)
 
-When the page loads on smaller screen sizes or on mobile devices it will rearnge the page so all the content will fit to the screen and the center image of the page will have a opacity and all the messages will be displayed over the center immage.
+When the page loads on smaller screen sizes or on mobile devices it will rearrange the page so all the content will fit to the screen and the center image of the page will have an opacity and all the messages will be displayed over the center image.
 
 ![Mobile or smaller screen sizes](./assets/docs/mobile-responsivness.png)
 
-
 # Testing
 
-I did verious test to insure to get the results that was intended.
+I did various tests to ensure that I got the results that were intended.
 
-Manual testing was done by playing the game, testing if the results that was given is the corect ones comparing it with the rules and doublechecking the score board and making sure after five rounds it rsets the score back to zero.
+Manual testing was done by playing the game, testing if the results that were given are the correct ones comparing it with the rules and double checking the score board and making sure after five rounds it resets the score back to zero.
 
-Validattor testing was dont for HTML, CSS and JavaScript to ensure the code conforms to the standards. All code passed at the end with no errors, there was ome warnings in HTM and CSS becouse of my coments I created to make code readability more easy and navigating trough the code.
+Validation testing was done for HTML, CSS and JavaScript to ensure the code conforms to the standards. All code passed at the end with no errors, there were some warnings in HTM and CSS because of my comments I created to make code readability more easy and navigating through the code.
 
-Lighthouse testing was done to try and improve on performance score as much as I could the biggest drawback of performance is my main function in JavaScript whitch is a loop and I am sure there must be a difrent way of doing it but not without the cost of having to redo most of the code, it is not a bad idia but for the perpose of this game and my current knowladge I will have to do more resarch to improve the code to gain more performance.
+Lighthouse testing was done to try and improve on performance score as much as I could the biggest drawback of performance is my main function in JavaScript which is a loop and I am sure there must be a different way of doing it but not without the cost of having to redo most of the code, it is not a bad idea but for the purpose of this game and my current knowledge I will have to do more research to improve the code to gain more performance.
 
 ## Manual Testing
 
 | What was tested | Result | Outcome |
 |:---:|:---:|:---:|
 |The game rules pop down up| Pop up with the rules | Works as intended|
-|Each button of the user was cliked| Changes the shadow color to green | works as intended|
-|Bot choice|Change the shadow to red of chosen choise| works as intended|
-|Random bot choise|The bot will have a random choice evrytime the game runs|Works as intended
-|Display message in green |Display the choise of the user and the bot and who won the round|Works as intended|
+|Each button of the user was clicked| Changes the shadow color to green | works as intended|
+|Bot choice|Change the shadow to red of chosen choice| works as intended|
+|Random bot choose|The bot will have a random choice every time the game runs|Works as intended
+|Display message in green |Display the choice of the user and the bot and who won the round|Works as intended|
 |Display message in red |Display only after five rounds Stating who won the best of the five rounds|Works as intended|
-|Score|Score incroments dependant on who won the round and resets after five rounds|Works as intended|
+|Score|Score increments depending on who won the round and resets after five rounds|Works as intended|
 
 # Validator Testing
 
-I put the game trough a series of validators to make sure it conforms to a valid 
+I put the game through a series of validators to make sure it conforms to a valid
 standard here ate the test and results
 
 ## [HTML Validator](https://validator.w3.org/)
 
-This was the inital html test it had some errors
+This was the initial html test it had some errors
 
 ![HTML Validator](./assets/docs/html-errors.png)
 
-I worked trough the errors fixing all od them and left with warnings becouse of, 
-the coments I have in the html code to label sections of the code to make readability
-and navigation trough the code easier.
+I worked through the errors fixing all of them and left with warnings because of,
+the comments I have in the html code to label sections of the code to make readability
+and navigation through the code is easier.
 
 ![HTML Validator](./assets/docs/html-no-errors.png)
 
 ## [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-This was the inital test it had a error 
+This was the initial test it had a error
 
 ![CSS Validator](./assets/docs/csse-erors.png)
 
-I fixed the error but made a consious desition to leave the coments that describes
-the sections of the code for navigation perposes and readablility of the code
+I fixed the error but made a conscious decision to leave the comments that describes
+the sections of the code for navigation purposes and readability of the code
 
 ![CSS Validator](./assets/docs/css-no-erros.png)
 
@@ -153,28 +152,28 @@ I tested the contras and tin was the result
 
 ## [JS Validator](https://jshint.com/)
 
-This was the innital test for the Java Script code it has no error only warnigs.
-The mojority of warnings is from the loop function I created as my main function.
+This was the initial test for the Java Script code; it has no error, only warnings.
+The majority of warnings are from the loop function I created as my main function.
 
 ![JS Validator](./assets/docs/js-warnings.png)
 
-My popUpFunction is caled in directly in the HTML 
+My popUpFunction is called in directly in the HTML
 
 ![JS Validator](./assets/docs/js-function.png)
 ![JS Validator](./assets/docs/js-functionIn-html.png)
 
 ## Lighthouse testing for desktop
 
-I used Lihgthouse to test the peoformanse for desctop and mobile 
-this was the performince I got for desctop and mobile on the first test 
+I used Lighthouse to test the performance for desktop and mobile
+this was the performance I got for desktop and mobile on the first test
 
 ### Desktop test one
 
 ![JS Validator](./assets/docs/light-house-desctop-test-one.png)
 
-### Desctop test two
+### Desktop test two
 
-I improved the accesibility by working on the contrass for the rules and changing
+I improved the accessibility by working on the contrast for the rules and changing
 the rules from a h3 html tag to a h2 html tag to conform with the rules
 
 ![JS Validator](./assets/docs/light-house-desctop-test-two.png)
@@ -183,9 +182,9 @@ the rules from a h3 html tag to a h2 html tag to conform with the rules
 
 ![JS Validator](./assets/docs/light-house-mobile-test-one.png)
 
-### Mobile test two 
+### Mobile test two
 
-I resized all the images to smaller sizes using tiiny.png to improve performance 
+I resized all the images to smaller sizes using tiiny.png to improve performance
 but still take a big hit on performance due to the main function in javascript being a loop
 
 ![JS Validator](./assets/docs/light-house-mobile-test-two.png)
@@ -233,7 +232,6 @@ Will allow you to create a copy of the repository so changes can be made that wi
 
 ![Forking](./assets/docs/forking.png)
 
-
 # Technologies Used
 
 - Html
@@ -263,19 +261,18 @@ Will allow you to create a copy of the repository so changes can be made that wi
 - Harry Dhillon my assigned mentor to give advise on the project
 - Nicole Jackson my wife a student at code institute for constructive criticism
 - Slack community
-- [w3schools](https://www.w3schools.com/) 
-- [stackoverflow](https://stackoverflow.com/) 
-
+- [w3schools](https://www.w3schools.com/)
+- [stackoverflow](https://stackoverflow.com/)
 
 ## Content
 
-- [Color Pelet](https://www.color-hex.com/color-palette/94134) insperation from color-hex
+- [Color Pelet](https://www.color-hex.com/color-palette/94134) inspiration from color-hex
 - [Box-Shadow](https://www.shecodes.io/athena/21966-how-to-add-a-shadow-to-a-button-in-css#:~:text=To%20add%20a%20shadow%20to%20a%20button%20in%20CSS%2C%20you,use%20the%20box%2Dshadow%20property.&text=The%20box%2Dshadow%20property%20takes,moves%20it%20to%20the%20left.) SheCodes for guidence
-- [Box-Shadow in JavasSript](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_boxshadow) w3schools for guidence
+- [Box-Shadow in JavasSript](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_boxshadow) w3schools for guidance
 - [Text-Shadow](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_text-shadow_blur
-) w3schools For guidence
-- [transform: Translate("value%","value%")](https://www.w3.org/wiki/CSS3_2D_Transforms) w3schools For guidence
-- [PopUp](https://www.w3schools.com/howto/howto_js_popup.asp) w3schools For guidence
+) w3schools For guidance
+- [transform: Translate("value%","value%")](https://www.w3.org/wiki/CSS3_2D_Transforms) w3schools For guidance
+- [PopUp](https://www.w3schools.com/howto/howto_js_popup.asp) w3schools For guidance
 - [Rules of game](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) bigbangtheory Rules of the game
 
 ## Media
