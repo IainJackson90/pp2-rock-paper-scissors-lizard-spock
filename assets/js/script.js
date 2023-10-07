@@ -9,15 +9,9 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
         button.addEventListener("click", function commitedUserOption() {
 
             let user = this.getAttribute("data-type");
-            const botOption = getBotOption(); /* stores the value now*/
-            /*let  reulst = rules(user, botOption) */
+            const botOption = getBotOption();
             let winningResult = rules(user, botOption);
-            console.log(user);
-            console.log(botOption);
-            console.log(winningResult);
-            //    return user;
             document.getElementById("outcome").innerText = winningResult;
-
             botStyling(botOption);
             bestOutOfFive();
         });
@@ -51,7 +45,6 @@ function getBotOption() {
         comittedBotOption = "spock";
     } else {
         alert("Something went wrong");
-        console.log("Something went wrong in the getBotOption function");
     }
 
     return comittedBotOption;
@@ -65,7 +58,6 @@ function getBotOption() {
  */
 
 function rules(user, bot) {
-
     let win = `You chose ${user} and the bot chose ${bot}, You win!`;
     let lose = `You chose ${user} and the bot chose ${bot}, You Lose!`;
 
@@ -169,7 +161,6 @@ function rules(user, bot) {
 
     } else {
         alert('Something went wrong');
-        console.log("Something went wrong from the rules function");
     }
 }
 
@@ -177,24 +168,16 @@ function rules(user, bot) {
  * This function incroments the score of the player
  */
 function playerScore() {
-
     let oldPlayerScore = parseInt(document.getElementById("player-score-count").innerText);
     document.getElementById("player-score-count").innerText = ++oldPlayerScore;
-
-    console.log("From player score function");
-
 }
 
 /**
  * This function incroments the score of the bot
  */
 function botScore() {
-
     let oldBotScore = parseInt(document.getElementById("bot-score-count").innerText);
     document.getElementById("bot-score-count").innerText = ++oldBotScore;
-
-    console.log("from bot score function");
-
 }
 
 
@@ -212,23 +195,16 @@ function bestOutOfFive() {
     if (bestOutOff === 5) {
         if (botScoreCount > playerScoreCount) {
             document.getElementById("winner").innerText = "Player won the best out of 5 games";
-
             document.getElementById("bot-score-count").innerText = 0;
             document.getElementById("player-score-count").innerText = 0;
-
-            return console.log("bestOutOfFive function bot won");
 
         } else if (botScoreCount < playerScoreCount) {
             document.getElementById("winner").innerText = "Bot won the best out of 5 games";
-
-            // alert("Player won best out of 5 Games");
             document.getElementById("bot-score-count").innerText = 0;
             document.getElementById("player-score-count").innerText = 0;
 
-            return console.log("bestOutOfFive function player won");
-
         } else {
-            console.log("Something went wrong with bestOutOfFive() nested if statment ");
+            alert("Something went wrong");
         }
     } else {
         document.getElementById("winner").innerText = "";
@@ -285,10 +261,9 @@ function botStyling(botStyle) {
         document.getElementById("bot-js-rock").style.boxShadow = "none";
 
     } else {
-        console.log("botStyling() something went wrong");
+        alert("botStyling() something went wrong");
     }
 
-    console.log("botStyling() Function");
 }
 
 function popUpFunction() {
