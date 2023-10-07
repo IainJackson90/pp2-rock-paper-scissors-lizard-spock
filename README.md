@@ -86,9 +86,14 @@ The red text will only apear at the end of the fith round displaying who won the
 
 ![Result of the game](./assets/docs/result-of-game.png)
 
-the score will incroment dependant on who won and reset after 5 rounds 
+the score will incroment dependant on who won and reset after five rounds 
 
 ![Score](./assets/docs/score.png)
+
+When the page loads on smaller screen sizes or on mobile devices it will rearnge the page so all the content will fit to the screen and the center image of the page will have a opacity and all the messages will be displayed over the center immage.
+
+![Mobile or smaller screen sizes](./assets/docs/mobile-responsivness.png)
+
 
 # Testing
 
