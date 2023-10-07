@@ -35,6 +35,44 @@ in general just want to pass time for a bit.
 
 # Validator Testing
 
+I put the game trough a series of validators to make sure it conforms to a valid 
+standard here ate the test and results
+
+## [HTML Validator](https://validator.w3.org/)
+
+This was the inital html test it had some errors
+
+![HTML Validator](./assets/docs/htmlErrors.PNG)
+
+I worked trough the errors fixing all od them and left with warnings becouse of, 
+the coments I have in the html code to label sections of the code to make readability
+and navigation trough the code easier.
+
+![HTML Validator](./assets/docs/htmlNoErrors.PNG)
+
+## [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+This was the inital test it had a error 
+
+![CSS Validator](./assets/docs/cssErrors.PNG)
+
+I fixed the error but made a consious desition to leave the coments that describes
+the sections of the code for navigation perposes and readablility of the code
+
+![CSS Validator](./assets/docs/cssNoErros.PNG)
+
+## [JS Validator](https://jshint.com/)
+
+This was the innital test for the Java Script code it has no error only warnigs.
+The mojority of warnings is from the loop function I created as my main function.
+
+![JS Validator](./assets/docs/JSWarnings.PNG)
+
+My popUpFunction is caled in directly in the HTML 
+
+![JS Validator](./assets/docs/JSFunction.PNG)
+![JS Validator](./assets/docs/JSFunctionInHTML.PNG)
+
 
 # Deployment
 
