@@ -32,6 +32,15 @@ in general just want to pass time for a bit.
 
 ## Manual Testing
 
+| What was tested | Result | Outcome |
+|:---:|:---:|:---:|
+|The game rules pop down up| Pop up with the rules | Works as intended|
+|Each button of the user was cliked| Changes the shadow color to green | works as intended|
+|Bot choice|Change the shadow to red of chosen choise| works as intended|
+|Random bot choise|The bot will have a random choice evrytime the game runs|Works as intended
+|Display message in green |Display the choise of the user and the bot and who won the round|Works as intended|
+|Display message in red |Display only after five rounds Stating who won the best of the five rounds|Works as intended|
+|Score|Score incroments dependant on who won the round and resets after five rounds|Works as intended|
 
 # Validator Testing
 
