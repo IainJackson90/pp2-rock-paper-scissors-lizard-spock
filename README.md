@@ -10,17 +10,57 @@ in general just want to pass time for a bit.
 
 # UX
 
+## Strategy
 
+This game was created with the intent to catch the atention of anyone who comes across this game.
+The targeted audiance of this game is to evryone and all ages looking for a fun strategy game that has some time to pass weather it is a quick lunch break or a brather just wanting to rellax.
+It is a simple game and esaly understandible 
 
-## Wireframe
+## Scope 
 
+The Game will:
 
-## Colors used for the webpage
+-  Acept a user input
+-  Create a random choise from the bot
+-  Compare the values
+-  Evaluate who won the round
+-  Incroment the score of the winner of the round
+-  Evaluate who won the best of 5 games
+-  Reset the score after 5 games 
+  
+## Structure
 
+The game will be structuerd with user expeariance in mind, it will be displayed 
+on a single page with no overflow.
+Whether it is a large screen or mobile divce it should fit all on the screen not destarcting the user with any scroling effects, not breaking the users atention of the game. 
+
+## Skeleton
+
+Some feuters of the wireframe has change as the development of the game went on, as I felt some features would be better incorperated innto the disng than others
+
+This is the original wireframe desing
+
+### Wireframe
+
+![Wireframe ](./assets/docs/wireframe.png)
+
+## Surface
+
+When desinging the serface I went for a cartoon look and coulerfull with a fun text font to match the the game 
+
+### Font
+
+the font I used was Shantell Sans
+
+![Font](./assets/docs/font.png)
+
+### Color pallet of the webpage
+
+![Font](./assets/docs/color-palet.png)
 
 # Features
 
-
+The features was created with the mindset of diplsaying clearly what option was selected and have a clean layout for easy user experiance with ey capturing pictures and colors to grab the user atention.
 
 ## Existing Features
 
@@ -99,6 +139,12 @@ I fixed the error but made a consious desition to leave the coments that describ
 the sections of the code for navigation perposes and readablility of the code
 
 ![CSS Validator](./assets/docs/css-no-erros.png)
+
+## [Color Validator](https://color.a11y.com/)
+
+I tested the contras and tin was the result
+
+![JS Validator](./assets/docs/contras-validate.png)
 
 ## [JS Validator](https://jshint.com/)
 
