@@ -28,7 +28,13 @@ in general just want to pass time for a bit.
 
 # Testing
 
+I did verious test to insure to get the results that was intended.
 
+Manual testing was done by playing the game, testing if the results that was given is the corect ones comparing it with the rules and doublechecking the score board and making sure after five rounds it rsets the score back to zero.
+
+Validattor testing was dont for HTML, CSS and JavaScript to ensure the code conforms to the standards. All code passed at the end with no errors, there was ome warnings in HTM and CSS becouse of my coments I created to make code readability more easy and navigating trough the code.
+
+Lighthouse testing was done to try and improve on performance score as much as I could the biggest drawback of performance is my main function in JavaScript whitch is a loop and I am sure there must be a difrent way of doing it but not without the cost of having to redo most of the code, it is not a bad idia but for the perpose of this game and my current knowladge I will have to do more resarch to improve the code to gain more performance.
 
 ## Manual Testing
 
