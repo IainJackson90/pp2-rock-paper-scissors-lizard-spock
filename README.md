@@ -119,7 +119,7 @@ Lighthouse testing was done to try and improve on performance score as much as I
 # Validator Testing
 
 I put the game through a series of validators to make sure it conforms to a valid
-standard here ate the test and results
+standard here are the test and results
 
 ## [HTML Validator](https://validator.w3.org/)
 
@@ -146,7 +146,7 @@ the sections of the code for navigation purposes and readability of the code
 
 ## [Color Validator](https://color.a11y.com/)
 
-I tested the contras and tin was the result
+I tested the contrast and this was the result
 
 ![JS Validator](./assets/docs/contras-validate.png)
 
