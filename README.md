@@ -25,8 +25,8 @@ The Game will:
 -  Compare the values
 -  Evaluate who won the round
 -  Incroment the score of the winner of the round
--  Evaluate who won the best of 5 games
--  Reset the score after 5 games 
+-  Evaluate who won the best of five games
+-  Reset the score after five games 
   
 ## Structure
 
@@ -200,7 +200,7 @@ This site was deployed to GitHub and these are the steps that was taken to do so
 Wait a while for it GitHub to deploy the webpage, when it is done it wil show
 the link at the top
 
-
+![Deployment](./assets/docs/deployment.png)
 
 - ## _Cloning the GitHub repository_
 
@@ -214,6 +214,8 @@ This will download a full copy to your desktop
 6. Paste the URL into the space provided
 7. Click "Create"
 
+![Cloning github](./assets/docs/github-cloning.png)
+![Cloning codeanywhere](./assets/docs/codeanywhere-cloning.png)
 
 - ## _Forking the GitHub repository_
 
@@ -224,19 +226,53 @@ Will allow you to create a copy of the repository so changes can be made that wi
 3. Find the "Fork" drop down in the top right corner second from last
 4. Select "Create"  
 
+![Forking](./assets/docs/forking.png)
 
 
 # Technologies Used
 
-
+- Html
+- Css
+- JavaScript
+- [Google Fonts](https://fonts.google.com/)
+- Chrome dev tools
+- [TinyPNG](https://tinypng.com/)
+- [Font Awsome](https://fontawesome.com/)
+- [Codeanywhere](https://codeanywhere.com/)
+- [GitHub](https://github.com/)
+- [Color Pelet](https://www.color-hex.com/color-palette/94134)
+- [Color Contrast Accessibility Validator](https://color.a11y.com/)
+- [W3C Markup Validation](https://validator.w3.org/)
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+- [FREEFORMATTER](https://www.freeformatter.com/)  For HTM and CSS
+- [JSHint](https://jshint.com/)
+- [Am I Responsive](https://ui.dev/amiresponsive)
+- [Google Docs](https://docs.google.com/document/u/0/)
+- [imagecolorpicker](https://imagecolorpicker.com/)
+- Microsoft Paint
+- Snipping Tool
 
 # Credits
 
+- Code Institute for the learning content provided
+- Harry Dhillon my assigned mentor to give advise on the project
+- Nicole Jackson my wife a student at code institute for constructive criticism
+- Slack community
+- [w3schools](https://www.w3schools.com/) 
+- [stackoverflow](https://stackoverflow.com/) 
 
 
 ## Content
 
-
+- [Color Pelet](https://www.color-hex.com/color-palette/94134) insperation from color-hex
+- [Box-Shadow](https://www.shecodes.io/athena/21966-how-to-add-a-shadow-to-a-button-in-css#:~:text=To%20add%20a%20shadow%20to%20a%20button%20in%20CSS%2C%20you,use%20the%20box%2Dshadow%20property.&text=The%20box%2Dshadow%20property%20takes,moves%20it%20to%20the%20left.) SheCodes for guidence
+- [Box-Shadow in JavasSript](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_boxshadow) w3schools for guidence
+- [Text-Shadow](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_text-shadow_blur
+) w3schools For guidence
+- [transform: Translate("value%","value%")](https://www.w3.org/wiki/CSS3_2D_Transforms) w3schools For guidence
+- [PopUp](https://www.w3schools.com/howto/howto_js_popup.asp) w3schools For guidence
+- [Rules of game](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) bigbangtheory Rules of the game
 
 ## Media
 
+- [PNG Images](https://www.clipartmax.com/) From clipartmax
