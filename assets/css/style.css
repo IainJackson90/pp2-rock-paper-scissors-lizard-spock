@@ -30,14 +30,14 @@ h2 {
 
 #rules {
     font-size: large;
-    color: red;
+    color: #ec1100;;
     text-align: center;
     /* width: 30px;
      */
 }
 
 #rules:hover {
-    text-shadow: 4px 4px 8px rgb(139, 49, 49);
+    text-shadow: 4px 4px 8px rgb(255, 108, 108);;
 }
 
 .heading {
