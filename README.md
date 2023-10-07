@@ -24,7 +24,31 @@ in general just want to pass time for a bit.
 
 ## Existing Features
 
+![Main Page ](./assets/docs/entir-game.png)
 
+The rules PupUp will display all the rules when it is clicked on displayed on a limegreen background. When you hover over the rules on desktop it will have a shadow of red and on mobile it will have a shadow after clicking on it.
+
+![Rules PopUp](./assets/docs/rules-popup.png)
+
+The user choice will have a green shadow when you hover over the image on desctop and on mobile it will have a green background if you selected a option.
+
+![User Choise](./assets/docs/user-choise.png)
+
+The Bot will have a rando choise and it will besplayed with a red shadow 
+
+![Bot Choise](./assets/docs/bot-choise.png)
+
+The green text displayes the uoutcome of who won the round
+
+![Result of the round](./assets/docs/result-of-round.png)
+
+The red text will only apear at the end of the fith round displaying who won the best of the five games 
+
+![Result of the game](./assets/docs/result-of-game.png)
+
+the score will incroment dependant on who won and reset after 5 rounds 
+
+![Score](./assets/docs/score.png)
 
 # Testing
 
