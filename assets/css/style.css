@@ -42,6 +42,7 @@ h2 {
 /*------------------------- Pop Up -----------------------------------*/
 .pop-up {
     position: relative;
+    cursor: pointer;
 }
 
 
