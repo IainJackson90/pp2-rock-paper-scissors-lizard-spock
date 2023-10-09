@@ -3,7 +3,7 @@
 ## [Click here to view website](https://iainjackson90.github.io/pp2-rock-paper-scissors-lizard-spock/)
 
 Rock Paper Scissors Lizard Spock is a game created that is simple to play.
-It is designed for people that has a few moments to spare while on a break, or
+It is designed for people that have a few moments to spare while on a break, or
 In general just want to pass time for a bit.
 
 ![Am I Responsive](./assets/docs/responsive.png)
@@ -32,11 +32,11 @@ The Game will:
 
 The game will be structured with user experience in mind, it will be displayed
 on a single page with no overflow.
-Whether it is a large screen or mobile device it should fit all on the screen not detecting the user with any scrolling effects, not breaking the users attention of the game.
+Whether it is a large screen or mobile device it should fit all on the screen not distracting the user with any scrolling effects, not breaking the users attention of the game.
 
 ## Skeleton
 
-Some features of the wireframe has change as the development of the game went on, as I felt some features would be better incorporated into the design than others
+Some features of the wireframe has changed as the development of the game went on, as I felt some features would be better incorporated into the design than others
 
 This is the original wireframe design
 
@@ -46,11 +46,11 @@ This is the original wireframe design
 
 ## Surface
 
-When designing the surface I went for a cartoon look and colorful with a fun text font to match the the game
+When designing the surface I went for a cartoon look and colorful with a fun text font to match the game
 
 ### Font
 
-the font I used was Shantell Sans
+The font I used was Shantell Sans
 
 ![Font](./assets/docs/font.png)
 
@@ -60,7 +60,7 @@ the font I used was Shantell Sans
 
 # Features
 
-The features were created with the mindset of displaying clearly what option was selected and have a clean layout for easy user experience with ey capturing pictures and colors to grab the user attention.
+The features were created with the mindset of displaying clearly what option was selected and have a clean layout for easy user experience, eye capturing pictures and colors to grab the users attention.
 
 ## Existing Features
 
@@ -68,7 +68,7 @@ The features were created with the mindset of displaying clearly what option was
 
 ## Rules
 
-The rules PupUp will display all the rules when it is clicked on and displayed on a lime green background. When you hover over the rules on desktop it will have a shadow of red and on mobile it will have a shadow after clicking on it.
+The rules PopUp will display all the rules when it is clicked on and displayed on a lime green background. When you hover over the rules on desktop it will have a shadow of red and on mobile it will have a shadow after clicking on it.
 
 ![Rules PopUp](./assets/docs/rules-popup.png)
 
@@ -84,7 +84,7 @@ The Bot will have a random choice and it will be displayed with a red shadow
 
 ![Bot Choice](./assets/docs/bot-choise.png)
 
-## Resault
+## Result
 
 The green text displays the outcome of who won the round
 
@@ -104,7 +104,7 @@ The score will increment depending on who won and reset after five rounds
 
 ## Responsiveness
 
-When the page loads on smaller screen sizes or on mobile devices it will rearrange the page so all the content will fit to the screen and the center image of the page will have an opacity and all the messages will be displayed over the center image.
+When the page loads on smaller screen sizes or on mobile devices it will rearrange the page so all the content will fit to the screen and the center image of the page will have a lower opacity, all the messages will be displayed over the center image.
 
 ![Mobile or smaller screen sizes](./assets/docs/mobile-responsivness.png)
 
@@ -114,42 +114,42 @@ I did various tests to ensure that I got the results that were intended.
 
 Manual testing was done by playing the game, testing if the results that were given are the correct ones comparing it with the rules and double checking the score board and making sure after five rounds it resets the score back to zero.
 
-Validation testing was done for HTML, CSS and JavaScript to ensure the code conforms to the standards. All code passed at the end with no errors, there were some warnings in HTM and CSS because of my comments I created to make code readability more easy and navigating through the code.
+Validation testing was done for HTML, CSS and JavaScript to ensure the code conforms to the standards. All code passed at the end with no errors, there were some warnings in HTML and CSS because of my comments I created to make code readability more easy and navigating through the code.
 
-Lighthouse testing was done to try and improve on performance score as much as I could the biggest drawback of performance is my main function in JavaScript which is a loop and I am sure there must be a different way of doing it but not without the cost of having to redo most of the code, it is not a bad idea but for the purpose of this game and my current knowledge I will have to do more research to improve the code to gain more performance.
+Lighthouse testing was done to try and improve on performance score as much as I could, the biggest drawback of performance is my main function in JavaScript which is a loop. I am sure there must be a different way of doing it but not without the cost of having to redo most of the code, it is not a bad idea but for the purpose of this game and my current knowledge I will have to do more research to improve the code to gain more performance.
 
 ## Manual Testing
 
 | What was tested | Result | Outcome |
 |:---:|:---:|:---:|
-|The game rules pop down up| Pop up with the rules | Works as intended|
-|Each button of the user was clicked| Changes the shadow color to green | works as intended|
-|Bot choice|Change the shadow to red of chosen choice| works as intended|
+|The game rules pop down up| Pop up with the rules|Works as intended|
+|Each button of the user was clicked| Changes the shadow color to green|Works as intended|
+|Bot choice|Change the shadow to red of chosen choice|Works as intended|
 |Random bot choose|The bot will have a random choice every time the game runs|Works as intended
-|Display message in green |Display the choice of the user and the bot and who won the round|Works as intended|
-|Display message in red |Display only after five rounds Stating who won the best of the five rounds|Works as intended|
+|Display message in green|Display the choice of the user and the bot and who won the round|Works as intended|
+|Display message in red|Display only after five rounds stating who won the best of the five rounds|Works as intended|
 |Score|Score increments depending on who won the round and resets after five rounds|Works as intended|
 
 # Validator Testing
 
 I put the game through a series of validators to make sure it conforms to a valid
-standard here are the test and results
+standard here are the tests and results
 
 ## [HTML Validator](https://validator.w3.org/)
 
-This was the initial html test it had some errors
+This was the initial HTML test it had some errors
 
 ![HTML Validator](./assets/docs/html-errors.png)
 
-I worked through the errors fixing all of them and left with warnings because of,
-the comments I have in the html code to label sections of the code to make readability
-and navigation through the code is easier.
+I worked through the errors fixing all of them and left with warnings because of
+the comments I have in the HTML code to label sections of the code for readability
+and navigation through the code.
 
 ![HTML Validator](./assets/docs/html-no-errors.png)
 
 ## [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-This was the initial test it had a error
+This was the initial test it, had a error
 
 ![CSS Validator](./assets/docs/csse-erors.png)
 
@@ -166,7 +166,7 @@ I tested the contrast and this was the result
 
 ## [JS Validator](https://jshint.com/)
 
-This was the initial test for the Java Script code; it has no error, only warnings.
+This was the initial test for the JavaScript code; It has no error, only warnings.
 The majority of warnings are from the loop function I created as my main function.
 
 ![JS Validator](./assets/docs/js-warnings.png)
@@ -198,8 +198,8 @@ the rules from a h3 html tag to a h2 html tag to conform with the rules
 
 ### Mobile test two
 
-I resized all the images to smaller sizes using tiiny.png to improve performance
-but still take a big hit on performance due to the main function in javascript being a loop
+I resized all of the images to smaller sizes using tiny.png to improve performance
+but still take a big hit on performance due to the main function in JavaScript due to the loop
 
 ![JS Validator](./assets/docs/light-house-mobile-test-two.png)
 
@@ -215,7 +215,7 @@ This site was deployed to GitHub and these are the steps that was taken to do so
 6. Branch(Select main and folder as Root)
 7. Save
 
-Wait a while for it GitHub to deploy the webpage, when it is done it wil show
+Wait a while for it GitHub to deploy the webpage, when it is done it will show
 the link at the top
 
 ![Deployment](./assets/docs/deployment.png)
