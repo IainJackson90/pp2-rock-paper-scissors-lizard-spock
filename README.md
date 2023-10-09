@@ -66,29 +66,43 @@ The features were created with the mindset of displaying clearly what option was
 
 ![Main Page ](./assets/docs/entir-game.png)
 
+## Rules
+
 The rules PupUp will display all the rules when it is clicked on and displayed on a lime green background. When you hover over the rules on desktop it will have a shadow of red and on mobile it will have a shadow after clicking on it.
 
 ![Rules PopUp](./assets/docs/rules-popup.png)
+
+## User Choice
 
 The user choice will have a green shadow when you hover over the image on desktop and on mobile it will have a green background if you select an option.
 
 ![User Choice](./assets/docs/user-choise.png)
 
+## Bot Choice
+
 The Bot will have a random choice and it will be displayed with a red shadow
 
 ![Bot Choice](./assets/docs/bot-choise.png)
+
+## Resault
 
 The green text displays the outcome of who won the round
 
 ![Result of the round](./assets/docs/result-of-round.png)
 
+## Outcome
+
 The red text will only appear at the end of the fifth round displaying who won the best of the five games
 
 ![Result of the game](./assets/docs/result-of-game.png)
 
-the score will increment depending on who won and reset after five rounds
+## Score
+
+The score will increment depending on who won and reset after five rounds
 
 ![Score](./assets/docs/score.png)
+
+## Responsiveness
 
 When the page loads on smaller screen sizes or on mobile devices it will rearrange the page so all the content will fit to the screen and the center image of the page will have an opacity and all the messages will be displayed over the center image.
 
@@ -219,7 +233,6 @@ This will download a full copy to your desktop
 7. Click "Create"
 
 ![Cloning github](./assets/docs/github-cloning.png)
-![Cloning codeanywhere](./assets/docs/codeanywhere-cloning.png)
 
 - ## _Forking the GitHub repository_
 

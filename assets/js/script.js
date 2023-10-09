@@ -1,5 +1,5 @@
 /**
- * The main gamme function that is loaded when the html loads
+ * The main game function that is loaded when the html loads
  */
 document.addEventListener("DOMContentLoaded", function userOptions() {
 
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function userOptions() {
 });
 
 /**
- * This is the bot player it gets a random number and asings it a value of 
+ * This is the bot player it gets a random number and assigns it a value of 
  * rock, paper, scissors, lizard, spock. 
  * @returns the value of the comittedBotOption 
  */
@@ -165,7 +165,7 @@ function rules(user, bot) {
 }
 
 /**
- * This function incroments the score of the player
+ * This function increment the score of the player
  */
 function playerScore() {
     let oldPlayerScore = parseInt(document.getElementById("player-score-count").innerText);
@@ -173,7 +173,7 @@ function playerScore() {
 }
 
 /**
- * This function incroments the score of the bot
+ * This function increment the score of the bot
  */
 function botScore() {
     let oldBotScore = parseInt(document.getElementById("bot-score-count").innerText);
@@ -213,9 +213,9 @@ function bestOutOfFive() {
 }
 
 /**
- * This function will evaluate the choice of the comper and give the div of that choice 
+ * This function will evaluate the choice of the computer and give the div of that choice 
  * a boxShadow color of red
- * @param {this parameter will be passed the argumrent of botOption} botStyle 
+ * @param {this parameter will be passed the argument of botOption} botStyle 
  */
 function botStyling(botStyle) {
 
